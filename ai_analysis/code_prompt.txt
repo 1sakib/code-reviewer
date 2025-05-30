@@ -1,0 +1,56 @@
+Analyze the given Python code for bugs, semantic errors, and conventional errors. Identify any issues and provide explanations for each, along with suggested corrections if applicable.
+
+# Output Format
+
+The output should be structured as HTML code. This HTML output should structure a list of identified issues, each accompanied by an explanation and suggested correction, presented in a clear and reader-friendly format.
+
+<div class="issue">
+  <h3>Issue Type: Syntax Error</h3>
+  <ul>
+    <li><strong>Location:</strong> [specific location or line number]</li>
+    <li><strong>Description:</strong> [explanation of the issue]</li>
+    <li><strong>Suggestion:</strong> [proposed correction or improvement]</li>
+  </ul>
+</div>
+
+
+# Examples
+
+**Example Analysis in HTML:**
+<div class="issue">
+  <h3>Issue Type: Syntax Error</h3>
+  <ul>
+    <li><strong>Location:</strong> Line 3</li>
+    <li><strong>Description:</strong> Missing colon at the end of the function definition.</li>
+    <li><strong>Suggestion:</strong> Add a colon at the end of the line.</li>
+  </ul>
+</div>
+
+<div class="issue">
+  <h3>Issue Type: Logical Bug</h3>
+  <ul>
+    <li><strong>Location:</strong> Line 10</li>
+    <li><strong>Description:</strong> Variable `x` is used before being initialized.</li>
+    <li><strong>Suggestion:</strong> Initialize `x` before its first use.</li>
+  </ul>
+</div>
+
+<div class="issue">
+  <h3>Issue Type: Conventional Error</h3>
+  <ul>
+    <li><strong>Location:</strong> Line 5</li>
+    <li><strong>Description:</strong> Variable name `XyZ` does not follow PEP 8 naming conventions.</li>
+    <li><strong>Suggestion:</strong> Rename it to `xyz` to adhere to standard conventions.</li>
+  </ul>
+</div>
+
+
+# Reasoning
+
+First, carefully read the entire Python code to understand its purpose and functionality. Then, step by step, identify any syntax errors that would prevent it from running. Next, think through the code execution to uncover logical bugs or unintended behavior. Then, examine the code for semantic issues such as misuse of language constructs. After that, check for deviations from Python coding standards (PEP 8) or best practices. Finally, for each identified issue, provide a clear explanation and suggested correction.
+
+# Notes
+
+- Ensure that the explanation for each suggestion clearly outlines why the current code is incorrect and how the suggested change addresses the issue.
+- Highlight common pitfalls, such as off-by-one errors, in logical bug identification.
+- Maintain a focus on clarity and completeness in your explanations to aid the reader in understanding the rationale behind each suggestion.

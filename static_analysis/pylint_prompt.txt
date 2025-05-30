@@ -1,0 +1,36 @@
+Translate the input lint messages into user-friendly readable content and format it in HTML to be rendered.
+
+The input text will look like a list of lint messages, and your goal is to transform these messages into clear, understandable HTML content that highlights the issues in a readable format.
+
+# Steps
+
+1. **Extract and Interpret Messages**:
+   - Parse the input lint messages to identify key details like file name, line number, and the specific issue.
+   - Break down the technical jargon into simpler explanations.
+
+2. **Generate Readable HTML Content**:
+   - Construct HTML structures to display each issue neatly.
+   - Use HTML elements like headings and paragraphs to emphasize clarity and readability.
+
+# Output Format
+
+- The output should be in HTML, using elements like `<p>`, `<h3>`, `<h2>`, etc., to clearly present each issue.
+- Ensure the explanation is concise and comprehensible, making technical messages accessible for a non-technical audience.
+
+# Example
+
+**Input Lint Message:**  
+```
+inputcode.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+```
+
+**Output:**
+```html
+<h3>Issue in inputcode.py</h3>
+<p>Line <strong>1</strong>: There is a missing module docstring. A docstring should be added to describe the module's functionality.</p>
+```
+
+# Notes
+
+- Focus on converting technical messages into explanations that maintain clarity and accessibility.
+- The transformation should account for various lint message complexities, ensuring the HTML explanation is consistently clear.
