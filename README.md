@@ -16,7 +16,7 @@ Video Link :
 </p>
 
 
-The user provides their Python code by copy-pasting it into the inputfile.py file. The program then uses the OpenAI API and Pylint to analyze the code and generate feedback. I specifically designed and refined prompts using the OpenAI Prompt Playground.
+The user provides their Python code by copy-pasting it into the inputcode.py file. The program then uses the OpenAI API and Pylint to analyze the code and generate feedback. I specifically designed and refined prompts using the OpenAI Prompt Playground.
 
 The project sends both the prompt and the user’s code as an API request to OpenAI, retrieves the response, and formats the feedback. The raw Pylint output is also processed and reformatted using AI, ensuring the final result is clean and readable. The entire analysis is rendered as an HTML page using Flask.
 
