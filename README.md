@@ -1,9 +1,12 @@
 
 # AI Code Reviewer
 
-<!-- Embedded Video -->
+<!-- Embedded Video Thumbnail -->
+Video Link : 
 <p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/9v244vSPgLE?si=FemRv5OoLKGQ6BOB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <a href="https://www.youtube.com/watch?v=9v244vSPgLE" target="_blank">
+    <img src="https://img.youtube.com/vi/9v244vSPgLE/0.jpg" alt="AI Code Reviewer Demo Video" width="650"/>
+  </a>
 </p>
 
 <!-- Two Images -->
